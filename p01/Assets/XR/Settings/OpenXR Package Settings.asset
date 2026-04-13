@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f547939d43e39c4da87271785d7b72e, type: 3}
   m_Name: FusionFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Dual Render Fusion
   version: 1.0.4
   featureIdInternal: com.qualcomm.snapdragon.spaces.fusion
@@ -133,37 +133,31 @@ MonoBehaviour:
   - {fileID: -6957070084663013297}
   - {fileID: -8276131730842998463}
   - {fileID: -829082812504259520}
-  - {fileID: -8508969986726855593}
   - {fileID: 3051704231101377821}
   - {fileID: 1817166580612752802}
+  - {fileID: -8508969986726855593}
   - {fileID: 6684149064646690816}
   - {fileID: 1342981934321758719}
   - {fileID: -374096588249425754}
   - {fileID: 620640896083641992}
   - {fileID: -4678612520934203840}
   - {fileID: 675582951729647585}
-  - {fileID: 1112113854353023746}
   - {fileID: -1259576625566117633}
   - {fileID: 1579603428525696079}
-  - {fileID: 8377909686651439490}
   - {fileID: -1609349380201968584}
   - {fileID: -6724035244385686542}
   - {fileID: 4024793013291558431}
+  - {fileID: 1631117907586958143}
   - {fileID: 111566723398493412}
   - {fileID: -1493779592605485745}
   - {fileID: 6381906115651579808}
   - {fileID: 669501961628474006}
   - {fileID: 2743448970316804114}
+  - {fileID: 8377909686651439490}
   - {fileID: -8146915898100982654}
   - {fileID: -1455637278183108619}
-  - {fileID: 8593136876861866306}
-  - {fileID: 1631117907586958143}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
 --- !u!114 &-6957070084663013297
@@ -683,13 +677,10 @@ MonoBehaviour:
     enabled: 1
   forceRemoveInternetPermission: 0
   symmetricProjection: 0
-  foveatedRenderingApi: 0
   systemSplashScreen: {fileID: 0}
   optimizeBufferDiscards: 1
   lateLatchingMode: 0
   lateLatchingDebug: 0
-  optimizeMultiviewRenderRegions: 0
-  spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &1112113854353023746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -979,7 +970,6 @@ MonoBehaviour:
   - {fileID: -2689074032640059810}
   - {fileID: -8401710296519124214}
   - {fileID: -1912273678337495996}
-  - {fileID: -6330366462095437773}
   - {fileID: -5199917279230151811}
   - {fileID: 2325152256887457396}
   - {fileID: -6295006371025210338}
@@ -988,13 +978,8 @@ MonoBehaviour:
   - {fileID: -4280267342227346523}
   - {fileID: 1436911617839858814}
   - {fileID: 7361265164862161208}
-  - {fileID: 4667720181065188413}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
 --- !u!114 &5007544126888609552
@@ -1155,7 +1140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d25b6c93e04925bb42da7f2fdf8027, type: 3}
   m_Name: SpacesMicrosoftMixedRealityMotionControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Microsoft Mixed Reality Motion Controller Profile
   version: 1.0.4
   featureIdInternal: com.unity.openxr.feature.input.microsoftmotioncontroller
