@@ -1216,6 +1216,7 @@ GameObject:
   - component: {fileID: 1003795193}
   - component: {fileID: 1003795192}
   - component: {fileID: 1003795191}
+  - component: {fileID: 1003795194}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -1275,6 +1276,21 @@ Transform:
   - {fileID: 974411748}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1003795194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003795190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6484b3af10357f44da97f883c04e274f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapTurnProvider: {fileID: 2063813544}
+  ContinuousTurnProvider: {fileID: 1039583971}
+  SnapTurnActive: 1
 --- !u!1 &1027019493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,7 +1428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 919e39492806b334982b6b84c90dd927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_System: {fileID: 0}
+  m_System: {fileID: 780592507}
   m_TurnSpeed: 60
   m_LeftHandTurnAction:
     m_UseReference: 0
