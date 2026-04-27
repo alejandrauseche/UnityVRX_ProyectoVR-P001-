@@ -1,0 +1,46 @@
+{
+    "name": "New Actions",
+    "maps": [
+        {
+            "name": "Right Controller",
+            "id": "52943c18-fa70-453f-8ac5-2952a6287ae7",
+            "actions": [
+                {
+                    "name": "Trigger",
+                    "type": "Value",
+                    "id": "48565a94-763d-4e8b-a8eb-1d718c148c1e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "913fb039-8e38-4926-bf07-c67f26d203bb",
+                    "path": "<XRController>{RightHand}/{Trigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";XR  Controller - Control Schemes",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "XR  Controller - Control Schemes",
+            "bindingGroup": "XR  Controller - Control Schemes",
+            "devices": [
+                {
+                    "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
