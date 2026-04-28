@@ -13,6 +13,87 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Trigger buttom",
+                    "type": "Button",
+                    "id": "d5b5801c-bdd1-49b6-a14a-4bcdca556763",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Value",
+                    "id": "0f4cb129-6511-4ed4-8a3a-f1be9f8a92d2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Grip Button",
+                    "type": "Button",
+                    "id": "b2bbeb53-5751-4207-8fdd-d44dae734245",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Primary Button",
+                    "type": "Button",
+                    "id": "f29fc7fe-7dc1-48b0-badf-78519d95f015",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Secondary Button",
+                    "type": "Button",
+                    "id": "9382f8f7-dd1c-471e-a232-76fe0b2abb17",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu Button",
+                    "type": "Button",
+                    "id": "bb9135c6-d4f0-4ecb-9fee-b8b032e02c7c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Stick Button",
+                    "type": "Button",
+                    "id": "d109bdfd-ab76-4709-91e2-b3ed5dbec3c5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Stick",
+                    "type": "Value",
+                    "id": "31bef37a-009e-4053-8f37-51a5a71a748a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "New action1",
+                    "type": "Button",
+                    "id": "dea06682-36f0-4fbb-94d5-4ab5b866fff5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -24,6 +105,105 @@
                     "processors": "",
                     "groups": ";XR  Controller - Control Schemes",
                     "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f13780b2-f7f4-4699-84ad-dc5a98e7b8e9",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";XR  Controller - Control Schemes",
+                    "action": "Trigger buttom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "64130dbd-4e11-421e-8e14-c912ac9935b9",
+                    "path": "<XRController>{RightHand}/{Grip}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f10d85e9-2fed-4224-959b-587c240c4503",
+                    "path": "<XRController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a64cd299-b821-43d6-b02c-8287064e0773",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";XR  Controller - Control Schemes",
+                    "action": "Primary Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "53a18aac-e614-4db7-9dce-f7b8f8a3149b",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Secondary Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7ed48d86-b9e4-4bf0-8f07-4950899d5409",
+                    "path": "<XRController>{RightHand}/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3161d804-54a4-46d4-a66e-06f8a778c041",
+                    "path": "<XRController>{RightHand}/{Secondary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Stick Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68dcd5e7-3396-4923-97d7-f2623372e813",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Stick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8ccdf7f2-88cd-48c3-ba87-dbee21f4f5e1",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
