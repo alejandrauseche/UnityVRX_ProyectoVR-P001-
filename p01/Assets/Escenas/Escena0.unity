@@ -1472,7 +1472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 499052265}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -1654,9 +1654,9 @@ Transform:
   m_GameObject: {fileID: 380345296}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.588, y: 0.58, z: 0.102}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 3.58, y: 0.199, z: 5.07}
+  m_LocalScale: {x: 0.33, y: 0.33, z: 0.33}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2222,7 +2222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ActionAssets:
-  - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - {fileID: -944628639613478452, guid: 0a9332730cf9ac64fa2fe11920c4c723, type: 3}
 --- !u!114 &1003795192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2296,7 +2296,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 3
   m_Height: 2
-  m_Radius: 0.5
+  m_Radius: 0.25
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.05
@@ -2314,7 +2314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af6bf904e410ee8479f9093d8830d1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LocomotionProvider: {fileID: 0}
+  m_LocomotionProvider: {fileID: 917836808}
   m_MinHeight: 0
   m_MaxHeight: Infinity
 --- !u!1 &1027019493
@@ -2806,9 +2806,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253268104}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -21.9, y: -0, z: 130.7}
-  m_LocalScale: {x: 11, y: 10, z: 6}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 5.6, y: 0, z: 121.4}
+  m_LocalScale: {x: 11.55, y: 10.2, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1840532493}
@@ -3242,7 +3242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 499052265}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -3424,9 +3424,9 @@ Transform:
   m_GameObject: {fileID: 1519565573}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.42183444, y: 0.58, z: 0.102}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -1.64, y: 0.21, z: 4.85}
+  m_LocalScale: {x: 0.33, y: 0.33, z: 0.33}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4136,7 +4136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1566203499}
   m_Layer: 0
-  m_Name: modelo
+  m_Name: modelo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4185,8 +4185,8 @@ Transform:
   m_GameObject: {fileID: 1816328583}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -1, y: -2.0000153, z: 127.90005}
-  m_LocalScale: {x: 11, y: 10, z: 6}
+  m_LocalPosition: {x: 4.5, y: -2, z: 125.4}
+  m_LocalScale: {x: 11.549999, y: 10.2, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1566203499}
@@ -4267,7 +4267,7 @@ Transform:
   m_GameObject: {fileID: 1840532492}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -23.9, y: 0, z: 6.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4935,7 +4935,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 112, y: 26.990807, z: 244.00006}
   m_Center: {x: -56, y: -0.000030517578, z: 126.00003}
@@ -4956,7 +4956,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 112, y: 26.990807, z: 244.00006}
   m_Center: {x: -56, y: 0.000030517576, z: 126.00003}
