@@ -14,6 +14,7 @@ public class CollectibleSound : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             audioSource.Play();
+            
         }
     }
 }
