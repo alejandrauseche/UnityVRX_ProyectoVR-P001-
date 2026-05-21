@@ -8,6 +8,10 @@ public class SonidosControl_Controlador : MonoBehaviour
     public AudioSource Sonido2; //s2
     public AudioSource Sonido3; //s3
 
+    private void Awake()
+    {
+        ReproducirSonido("s2");
+    }
 
     public void ReproducirSonido(string que_sonido)
     {
