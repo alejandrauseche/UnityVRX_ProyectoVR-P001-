@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Cupcake_Controlador : MonoBehaviour
 {
-    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Jugador"))
@@ -14,6 +13,4 @@ public class Cupcake_Controlador : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
- 
 }
