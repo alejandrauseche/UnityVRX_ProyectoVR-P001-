@@ -188,6 +188,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ba786a5514213b4187ed3930494dfe6, type: 3}
+--- !u!1 &219584645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7884020753739551270, guid: 32c404398652a954cbb1c1a32308e5a9, type: 3}
+  m_PrefabInstance: {fileID: 1336877646}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &321299442
 GameObject:
   m_ObjectHideFlags: 0
@@ -3108,6 +3113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cupcake (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7946738352359349438, guid: 32c404398652a954cbb1c1a32308e5a9, type: 3}
+      propertyPath: Cupcake
+      value: 
+      objectReference: {fileID: 219584645}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4406,6 +4415,11 @@ Transform:
   - {fileID: 1816328584}
   m_Father: {fileID: 6028435809786609286}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1584752496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7884020753739551270, guid: 32c404398652a954cbb1c1a32308e5a9, type: 3}
+  m_PrefabInstance: {fileID: 6379877849035871006}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1701419522 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8115720777034437074, guid: 0790e3d42883ccb46ab251e6a3958193, type: 3}
@@ -10504,6 +10518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cupcake
       objectReference: {fileID: 0}
+    - target: {fileID: 7946738352359349438, guid: 32c404398652a954cbb1c1a32308e5a9, type: 3}
+      propertyPath: Cupcake
+      value: 
+      objectReference: {fileID: 1584752496}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
